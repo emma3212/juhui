@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>维护订单信息导出</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<table class="table-form" cellspacing="0" cellpadding="6" border="1"
+       style="border-collapse: collapse; text-align: center; font-size: 14px; width: 100%;">
+    <tr>
+        <th colspan="6" class="big-title">博曼IT服务-免费IT维护服务表单(www.boman.net)</th>
+    </tr>
+    <tr>
+        <th class="table-width-15">维护订单编号</th>
+        <!--{订单号 start}-->
+        <td colspan="2">${maintenanceOrderDto.num}</td>
+        <!--{订单号 end}-->
+        <th class="table-width-15">维护订单生成时间</th>
+        <!--{生成时间 start}-->
+        <td colspan="2">${maintenanceOrderDto.createdTime}</td>
+        <!--{生成时间 end}-->
+    </tr>
+    <tr>
+        <th>
+            维护订单问题类型
+        </th>
+        <td>
+            <!--{问题类型 start}-->${maintenanceOrderDto.parentType}<!--{问题类型 end}-->
+        </td>
+        <td>
+            <!--{问题类型 start}-->${maintenanceOrderDto.type}<!--{问题类型 end}-->
+        </td>
+        <th>维护类型描述</th>
+        <!--{问题描述 start}-->
+        <td colspan="2" align="left" style="text-align: left;">${maintenanceOrderDto.typeDesc}</td>
+        <!--{问题描述 end}-->
+    </tr>
+    <tr>
+        <th>会员PIN</th>
+        <!--{会员PIN start}-->
+        <td>${maintenanceOrderDto.memberPin}</td>
+        <!--{会员PIN end}-->
+        <th>公司名称</th>
+
+        <td colspan="3">
+            <!--{公司名称 start}-->
+            ${maintenanceOrderDto.memberName}
+            <!--{公司名称 end}-->
+        </td>
+
+    </tr>
+    <tr>
+        <th>详细办公地址</th>
+        <td colspan="6">
+            <!--{详细办公地址 start}-->
+            ${maintenanceOrderDto.memberAddress}
+            <!--{详细办公地址 end}--></td>
+    </tr>
+    <tr>
+        <th>申请人</th>
+        <td><!--{申请人 start}-->${maintenanceOrderDto.applicant}<!--{申请人 end}--></td>
+        <th>申请人手机</th>
+        <td><!--{手机 start}-->${maintenanceOrderDto.applicantPhone}<!--{手机 end}--></td>
+        <th>申请人固定电话</th>
+        <td><!--{电话 start}-->${maintenanceOrderDto.applicantTel}<!--{电话 end}--></td>
+    </tr>
+    <tr>
+        <th>服务工程师</th>
+        <td><!--{工程师 start}-->${maintenanceOrderDto.employeeName}<!--{工程师 end}--></td>
+        <th>服务工程师手机</th>
+        <td><!--{手机 start}-->${maintenanceOrderDto.employeePhone}<!--{手机 end}--></td>
+        <th>客户经理</th>
+        <td><!--{客户经理 start}-->${maintenanceOrderDto.managerName}<!--{客户经理 end}--></td>
+    </tr>
+    <tr>
+        <th colspan="6" align="left">
+            问题描述(请简要描述问题现象)
+        </th>
+    </tr>
+    <tr>
+        <td colspan="6" height="150" valign="top" align="left" style="text-indent:2em; text-align: left;">
+            ${maintenanceOrderDto.problem}
+        </td>
+    </tr>
+    <tr>
+        <th colspan="6" align="left" style="text-align: left;">注意事项：请仔细选择问题类型，以便于博曼派遣相关专业工程师上门，更好的为您解决问题，不同类型的问题请分开提交维护订单</th>
+    </tr>
+    <tr>
+        <th colspan="6" align="left">问题解决方法</th>
+    </tr>
+    <tr>
+        <td colspan="6" height="150" valign="top" align="left" style="text-indent:2em; text-align: left;">
+            ${maintenanceOrderDto.solution}
+        </td>
+    </tr>
+    <tr>
+        <th colspan="6" align="left">订单备注(是否发生费用)</th>
+    </tr>
+    <tr>
+        <td colspan="6" height="150" valign="top" align="left" style="text-indent:2em; text-align: left;">
+            ${maintenanceOrderDto.desc}
+        </td>
+    </tr>
+    <tr>
+        <th colspan="4" align="left">订单签章</th>
+        <th colspan="2" align="left">订单完成确认签字</th>
+    </tr>
+    <tr>
+        <td colspan="4" height="160">
+            <!--  <img src="/resources/img/adminPanel/page/test/img_u205.gif" alt="订单签章" width="150" height="160" /> -->
+        </td>
+        <td colspan="2"><span class="big-title">${maintenanceOrderDto.signatory}</span></td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+    <title>博曼会员导出</title>
+</head>
+<body>
+    <p style="text-align: center; font-size: 26px;">北京广德腾建博曼科技有限公司</p>
+    <p style="text-align: center; font-size: 26px;">博曼IT服务业务系统</p>
+    <hr style="margin-top: -71px; width: 100%; margin-right: 0;" />
+    <span style="margin-left: 16px; font-size: 16px;">电话:010-88696001</span>
+    <span style="padding: 0 187px; font-size: 16px;">传真:010-88696002</span>
+    <span style="font-size: 16px;">网址:www.boman.net</span>
+    <p style="text-align: left; font-size: 16px;margin-bottom: 30px;">地址：北京市东城区崇文门外大街18号国瑞购物中心B2层广德办公室</p>
+    <hr style="width: 100%; margin-right: 0;" />
+    <p style="text-align: center; font-size: 16px;">
+        <span>停用会员列表</span>
+    </p>
+    <p style="font-size:10px"></p>
+    <table style="width: 100%;font-size: 12px; font-style: normal;" border="1px" cellspacing="0" cellpadding="10" align="center">
+        <tbody>
+        <tr>
+            <th width="5%">PIN</th>
+            <th width="20%">公司全称</th>
+            <th width="10%">联系人</th>
+            <th width="15%">联系方式</th>
+            <th width="5%">积分</th>
+            <th width="10%">推荐人</th>
+            <th width="15%">客户经理</th>
+            <th width="15%">注册日期</th>
+        </tr>
+
+        <#list memberDTOList as i>
+            <tr>
+                <td>${i.pin}</td>
+                <td>${i.name}</td>
+                <td>${i.contactPerson}</td>
+                <td>${i.contactPhone}</td>
+                <td>${i.credit}</td>
+                <td>${i.recommender}</td>
+                <td>${i.manager}</td>
+                <td>${i.createdTime}</td>
+            </tr>
+        </#list>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<performances>
+
+	<regionPerformance id="11">
+		<region>石景山区</region>
+		<userNo>50</userNo>
+		<data id="1">
+		 	<month>5月</month>
+		    <performance>20</performance>
+		</data>
+		<data id="2">
+		 	<month>6月</month>
+		    <performance>30</performance>
+	   	</data>
+		<data id="3">
+		 	<month>7月</month>
+		    <performance>40</performance>
+	   	</data>
+	   	<data id="4">
+		 	<month>8月</month>
+		    <performance>50</performance>
+	   	</data>
+	   	<data id="5">
+		 	<month>9月</month>
+		    <performance>70</performance>
+	   	</data>
+	   	<data id="6">
+		 	<month>10月</month>
+		    <performance>50</performance>
+	   	</data>
+	</regionPerformance>
+
+	<regionPerformance id="12">
+		<region>海淀区</region>
+		<userNo>51</userNo>
+		<data id="7">
+		 	<month>5月</month>
+		    <performance>540</performance>
+		</data>
+		<data id="8">
+		 	<month>6月</month>
+		    <performance>620</performance>
+	   	</data>
+		<data id="9">
+		 	<month>7月</month>
+		    <performance>705</performance>
+	   	</data>
+	   	<data id="10">
+		 	<month>8月</month>
+		    <performance>403</performance>
+	   	</data>
+	   	<data id="11">
+		 	<month>9月</month>
+		    <performance>750</performance>
+	   	</data>
+	   	<data id="12">
+		 	<month>10月</month>
+		    <performance>550</performance>
+	   	</data>
+	</regionPerformance>
+
+	<regionPerformance id="13">
+		<region>顺义区</region>
+		<userNo>50</userNo>
+		<data id="47">
+		 	<month>5月</month>
+		    <performance>560</performance>
+		</data>
+		<data id="48">
+		 	<month>6月</month>
+		    <performance>260</performance>
+	   	</data>
+		<data id="49">
+		 	<month>7月</month>
+		    <performance>760</performance>
+	   	</data>
+	   	<data id="140">
+		 	<month>8月</month>
+		    <performance>602</performance>
+	   	</data>
+	   	<data id="141">
+		 	<month>9月</month>
+		    <performance>790</performance>
+	   	</data>
+	   	<data id="142">
+		 	<month>10月</month>
+		    <performance>50</performance>
+	   	</data>
+	</regionPerformance>
+
+	<regionPerformance id="14">
+		<region>朝阳区</region>
+		<userNo>50</userNo>
+		<data id="97">
+		 	<month>5月</month>
+		    <performance>510</performance>
+		</data>
+		<data id="999">
+		 	<month>6月</month>
+		    <performance>630</performance>
+	   	</data>
+		<data id="99">
+		 	<month>7月</month>
+		    <performance>720</performance>
+	   	</data>
+	   	<data id="109">
+		 	<month>8月</month>
+		    <performance>190</performance>
+	   	</data>
+	   	<data id="119">
+		 	<month>9月</month>
+		    <performance>705</performance>
+	   	</data>
+	   	<data id="129">
+		 	<month>10月</month>
+		    <performance>505</performance>
+	   	</data>
+	</regionPerformance>
+
+	<regionPerformance id="15">
+		<region>东城区</region>
+		<userNo>50</userNo>
+		<data id="17">
+		 	<month>5月</month>
+		    <performance>530</performance>
+		</data>
+		<data id="18">
+		 	<month>6月</month>
+		    <performance>640</performance>
+	   	</data>
+		<data id="19">
+		 	<month>7月</month>
+		    <performance>750</performance>
+	   	</data>
+	   	<data id="110">
+		 	<month>8月</month>
+		    <performance>502</performance>
+	   	</data>
+	   	<data id="111">
+		 	<month>9月</month>
+		    <performance>740</performance>
+	   	</data>
+	   	<data id="112">
+		 	<month>10月</month>
+		    <performance>505</performance>
+	   	</data>
+	</regionPerformance>
+
+	<regionPerformance id="16">
+		<region>丰台区</region>
+		<userNo>50</userNo>
+		<data id="77">
+		 	<month>5月</month>
+		    <performance>510</performance>
+		</data>
+		<data id="88">
+		 	<month>6月</month>
+		    <performance>600</performance>
+	   	</data>
+		<data id="99">
+		 	<month>7月</month>
+		    <performance>320</performance>
+	   	</data>
+	   	<data id="100">
+		 	<month>8月</month>
+		    <performance>40</performance>
+	   	</data>
+	   	<data id="110">
+		 	<month>9月</month>
+		    <performance>170</performance>
+	   	</data>
+	   	<data id="120">
+		 	<month>10月</month>
+		    <performance>80</performance>
+	   	</data>
+	</regionPerformance>
+
+</performances>
+
+
